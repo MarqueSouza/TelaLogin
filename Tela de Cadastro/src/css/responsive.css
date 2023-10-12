@@ -1,0 +1,66 @@
+@media (max-width: 950px) {
+    html, body {
+        overflow-y: hidden;
+    }
+    .left-cadastro {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        margin-bottom: 350px;
+        white-space: nowrap;
+        margin-left: 109px;
+    }
+
+    h1 {
+        display: none;
+    }
+    
+    .left-imagem {
+        width: 290px;
+        height: 270px;
+ 
+    
+    }
+
+    .right-cadastro {
+        order: 1; /* Mova para a parte superior em telas menores */
+        max-width: 100%; /* Remova a largura máxima em telas menores */
+        margin-top: 50px;
+    }
+
+    .card-cadastro {
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        order: 1;
+        margin-top: 220px;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        width: 90%;
+        margin-left: 20px;
+
+    }
+
+    .textfield label {
+        font-size: 12px;
+    }
+
+    .textfield input {
+        padding: 6px;
+        font-size: 12px;
+    }
+
+    #idade {
+        font-size: 12px;
+    }
+
+    .btn-cadastrar {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 5vh;
+        margin-left: 3px;
+    }
+}

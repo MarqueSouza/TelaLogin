@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body * {
+    box-sizing: border-box;
+}
+
+.main-cadastro {
+    width: 100vw;
+    height: 100vh;
+    background: #0e1c2e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left-cadastro {
+    width: 45vw; /* Reduzi a largura e afastei um pouco da esquerda */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-left: 8vw; /* Afasta a partir da esquerda */
+}
+
+.left-cadastro > h1 {
+    color: #51f05e;
+    
+}
+
+.left-imagem {
+    width: 35vw;
+}
+
+.right-cadastro {
+    width: 50vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.card-cadastro {
+    width: 50%;
+    flex-direction: column;
+    padding: 10px 45px; /* Reduzi o padding horizontal */
+    background: #203f68;
+    border-radius: 30px;
+    box-shadow: 0px 10px 30px #2e4994;
+}
+
+.card-cadastro > h1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #51f05e;
+    font-weight: 800;
+    margin: 0;
+    font-size: 30px; /* Diminuí a fonte dos títulos */
+}
+
+.textfield {
+    width: 100;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+}
+
+.textfield input {
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    padding: 8px; /* Reduzi o padding vertical e horizontal */
+    background: #0e1c2e;
+    color: #f0ffffde;
+    font-size: 11pt; /* Diminuí a fonte dos inputs em 1 pixel */
+    box-shadow: 0px 10px 30px #2e4994;
+    outline: none;
+    box-sizing: border-box;
+}
+
+#idade {
+    width: 26%; /* Reduzi a largura */
+    margin-top: 2px;
+    font-size: 11pt; /* Diminuí a fonte do campo Idade em 1 pixel */
+}
+
+.wg {
+    width: 49%; /* Ajustei a largura para manter o espaçamento correto */
+    border: none;
+    border-radius: 10px;
+    margin-right: 2%; /* Reduzi o espaçamento entre os campos */
+    float: left;
+}
+
+.btn-cadastrar {
+    width: 100%;
+    padding: 10px 0px; /* Reduzi o padding vertical */
+    margin: 10px; /* Reduzi a margem */
+    border: none;
+    border-radius: 6px;
+    outline: none;
+    text-transform: uppercase;
+    font-size: 800;
+    letter-spacing: 3px;
+    color: #2b134b;
+    background: #51f05e;
+    cursor: pointer;
+    box-shadow: 0px 8px 30px -14px #00ff8052;
+}
